@@ -65,6 +65,7 @@ cap <- cap_date %>%
 
 cap_region_table <- cap %>% 
   select(observer, date, location) 
+
 %>% 
   # group_by(location) %>% 
   # mutate(temp_reg_id = cur_group_id()) %>% 
