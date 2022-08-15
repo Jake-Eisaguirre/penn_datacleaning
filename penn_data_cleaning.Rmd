@@ -1,0 +1,179 @@
+---
+title: "post_prep"
+author: "Jake Eisaguirre"
+date: "8/15/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+if (!require(librarian)){
+  install.packages("librarian")
+  library(librarian)
+}
+
+# librarian downloads, if not already downloaded, and reads in needed packages
+
+librarian::shelf(tidyverse, here, janitor, lubridate, parsedate, stringr)
+```
+
+### Load munged data: still need to include swab, amp, etc IDs
+```{r}
+
+capture_data <- read_csv(here("data", "merged_AmphibianCaptureSurvey.csv")) %>% 
+  clean_names()
+
+ves_data <- read_csv(here("data", "merged_VisualEncounterSurvey.csv")) %>% 
+  clean_names()
+
+```
+### add day/night binary column
+```{r}
+
+cap_data <- capture_data %>% 
+  mutate(start_hour = hour(start_time),
+         end_hour = hour(end_time),
+         survey_time = case_when(start_hour >= 6 & end_hour >= 6 & end_hour < 19 ~ "day", 
+                          start_hour >= 19 &  (end_hour < 6 | end_hour <= 23) |
+                         (start_hour < 6 & end_hour < 6)~ "night")) %>% 
+  select(!c(start_hour, end_hour))
+
+```
+
+### parse date for ISO 8601
+```{r}
+cap_date <- cap_data %>% 
+  mutate(date = parse_iso_8601(date))
+```
+
+### lower case select columns and better naming convention
+```{r}
+
+cap <- cap_date %>% 
+  mutate(life_stage = str_to_lower(life_stage),
+         sex = str_to_lower(sex),
+         microhabitat_type = str_to_lower(microhabitat_type)) %>% 
+  rename(microhabitat_temperature_c = microhabitat_temperature) %>% 
+  rename(body_temperature_c = body_temperature)
+
+```
+
+### pull out cap region table (sites)
+```{r}
+
+cap_region_table <- cap %>% 
+  select(observer, date, location) 
+%>% 
+  # group_by(location) %>% 
+  # mutate(temp_reg_id = cur_group_id()) %>% 
+  # filter(!duplicated(temp_reg_id)) %>% 
+  # select(!c(date, observer))
+
+```
+
+### pull out cap visit table
+```{r}
+
+cap_visit_table <- cap %>% 
+  select(c(date, survey_time, location)) 
+
+%>% 
+  # group_by(date, survey_time) %>% 
+  # mutate(temp_v_id = cur_group_id()) %>% 
+  # filter(!duplicated(temp_v_id))
+
+```
+
+### pull out cap survey table - need to figure out duration column
+```{r}
+
+cap_survey_table <- cap %>% 
+  select(1:5, survey_time) 
+
+# %>%
+#   group_by(date, location, start_time, end_time, survey_time) %>%
+#   mutate(temp_surv_id = cur_group_id()) %>%
+#   filter(!duplicated(temp_surv_id))
+#   
+  
+  
+  
+  # mutate(start_time = parse_iso_8601(paste(date, start_time, sep= " ")),
+  #        end_time = parse_iso_8601(paste(date, end_time, sep = " ")),
+  #        duration = hms(end_time - start_time))
+  
+
+```
+
+### pull out capture table
+```{r}
+
+capture_table <- cap %>% 
+  mutate(temp_cap_id = 1:n())
+
+```
+
+### clean ves table
+```{r}
+
+ves <- ves_data %>% 
+  mutate(start_hour = hour(start_time),
+         end_hour = hour(end_time),
+         survey_time = case_when(start_hour >= 6 & end_hour >= 6 & end_hour < 19 ~ "day", 
+                          start_hour >= 19 &  (end_hour < 6 | end_hour <= 23) |
+                         (start_hour < 6 & end_hour < 6)~ "night")) %>% 
+  select(!c(start_hour, end_hour)) %>% 
+    mutate(date = parse_iso_8601(date))
+
+
+
+```
+
+### rbind cap region with ves region and filter by unique occurances
+```{r}
+
+region_table <- ves %>% 
+  select(observer, date, location) %>% 
+  rbind(cap_region_table) %>% 
+  group_by(location) %>%  
+  mutate(temp_reg_id = cur_group_id()) %>% 
+  filter(!duplicated(temp_reg_id)) %>% 
+  select(!c(date, observer))
+
+```
+
+### rbind cap visit table with ves and filter by unique occurances
+```{r}
+visit_table <- ves %>% 
+  select(c(date, survey_time, location)) %>% 
+  rbind(cap_visit_table) %>% 
+  group_by(date, survey_time, location) %>% 
+  mutate(temp_v_id = cur_group_id()) %>% 
+  filter(!duplicated(temp_v_id))
+
+
+```
+
+### rbind cap survey table with ves and filter by unique occurances
+```{r}
+
+survey_table <- ves %>% 
+  select(1:5, survey_time) %>% 
+  rbind(cap_survey_table) %>% 
+  group_by(date, location, start_time, end_time, survey_time) %>% 
+  mutate(temp_surv_id = cur_group_id()) %>% 
+  filter(!duplicated(temp_surv_id))
+  
+
+```
+
+### pull ves table
+```{r}
+
+ves_table <- ves %>% 
+  mutate(temp_ves_id = 1:n())
+
+```
+
