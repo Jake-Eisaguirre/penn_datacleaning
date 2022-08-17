@@ -1,36 +1,33 @@
 date,survey_time,site,temp_v_id
 2022-05-26T00:00:00Z,night,wood lab pond,8
 2022-05-27T00:00:00Z,night,wood lab pond,9
-2022-06-03T00:00:00Z,night,phelps pond,11
-2022-06-14T00:00:00Z,night,tuttle pond,18
-2022-06-03T00:00:00Z,night,NA,12
-2022-06-15T00:00:00Z,night,tuttle pond,20
-2022-06-27T00:00:00Z,night,vorisek pond,26
-2022-07-11T00:00:00Z,night,rv pond,29
-2022-07-18T00:00:00Z,night,tuttle pond,32
+2022-06-03T00:00:00Z,night,phelps pond,10
+2022-06-14T00:00:00Z,night,tuttle pond,15
+2022-06-03T00:00:00Z,night,NA,11
+2022-06-15T00:00:00Z,night,tuttle pond,17
+2022-06-27T00:00:00Z,night,vorisek pond,23
+2022-07-11T00:00:00Z,night,rv pond,26
+2022-07-18T00:00:00Z,night,tuttle pond,29
+2022-05-19T00:00:00Z,night,admin pond,6
+2022-05-20T00:00:00Z,day,admin pond,7
+2022-06-07T00:00:00Z,night,rv pond,12
+2022-06-08T00:00:00Z,night,rv pond,14
+2022-06-22T00:00:00Z,day,tryon-weber,19
+2022-06-23T00:00:00Z,day,tryon-weber,20
+2022-06-23T00:00:00Z,night,tryon-weber,21
+2022-06-28T00:00:00Z,night,vorisek pond,25
+2022-07-12T00:00:00Z,night,rv pond,28
+2022-07-19T00:00:00Z,night,tuttle pond,31
+2022-06-07T00:00:00Z,NA,rv pond,13
+2022-06-14T00:00:00Z,NA,tuttle pond,16
+2022-06-16T00:00:00Z,NA,tuttle pond,18
+2022-06-23T00:00:00Z,NA,tryon-weber,22
+2022-06-27T00:00:00Z,NA,vorisek pond,24
+2022-07-11T00:00:00Z,NA,rv pond,27
+2022-07-18T00:00:00Z,NA,tuttle pond,30
+2022-07-19T00:00:00Z,NA,tuttle pond,32
 2022-05-04T00:00:00Z,NA,wood lab pond,1
 2022-05-05T00:00:00Z,NA,phelps pond,2
 2022-05-11T00:00:00Z,NA,admin pond,3
 2022-05-12T00:00:00Z,NA,rv pond,4
 2022-05-18T00:00:00Z,NA,admin pond,5
-2022-05-19T00:00:00Z,night,admin pond,6
-2022-05-20T00:00:00Z,day,admin pond,7
-2022-05-28T00:00:00Z,day,wood lab pond,10
-2022-06-04T00:00:00Z,night,phelps pond,13
-2022-06-04T00:00:00Z,NA,phelps pond,14
-2022-06-07T00:00:00Z,night,rv pond,15
-2022-06-07T00:00:00Z,NA,rv pond,16
-2022-06-08T00:00:00Z,night,rv pond,17
-2022-06-14T00:00:00Z,NA,tuttle pond,19
-2022-06-16T00:00:00Z,NA,tuttle pond,21
-2022-06-22T00:00:00Z,day,tryon-weber,22
-2022-06-23T00:00:00Z,day,tryon-weber,23
-2022-06-23T00:00:00Z,NA,tryon-weber,25
-2022-06-23T00:00:00Z,night,tryon-weber,24
-2022-06-27T00:00:00Z,NA,vorisek pond,27
-2022-06-28T00:00:00Z,night,vorisek pond,28
-2022-07-11T00:00:00Z,NA,rv pond,30
-2022-07-12T00:00:00Z,night,rv pond,31
-2022-07-18T00:00:00Z,NA,tuttle pond,33
-2022-07-19T00:00:00Z,night,tuttle pond,34
-2022-07-19T00:00:00Z,NA,tuttle pond,35

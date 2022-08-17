@@ -1,0 +1,25 @@
+observer,date,site,start_time,end_time,species_acoustic,call_index,acoustic_comments,survey_time,detection_type,temp_acous_id
+brandon hoenig,2022-05-26T00:00:00Z,wood lab pond,20:52:00,20:55:00,Unknown,"1 - individuals can be counted, space between calls",small croak as it entered water.,night,acoustic,1
+brandon hoenig,2022-05-26T00:00:00Z,wood lab pond,20:52:00,20:55:00,Rana clamitans,"1 - individuals can be counted, space between calls",small croak,night,acoustic,2
+brandon hoenig,2022-05-27T00:00:00Z,wood lab pond,20:37:00,20:40:00,Rana catesbeiana,0 - species visible but no vocalization,NA,night,acoustic,3
+brandon hoenig,2022-05-27T00:00:00Z,wood lab pond,20:37:00,20:40:00,Rana clamitans,0 - species visible but no vocalization,NA,night,acoustic,4
+brandon hoenig,2022-06-03T00:00:00Z,phelps pond,20:44:00,20:47:00,Rana clamitans,"1 - individuals can be counted, space between calls",NA,night,acoustic,5
+brandon hoenig,2022-06-03T00:00:00Z,phelps pond,20:44:00,20:47:00,Unknown,"1 - individuals can be counted, space between calls",squirrelly call. sounds like a smaller amphibian.  possible leonora frog?,night,acoustic,6
+brandon hoenig,2022-06-08T00:00:00Z,rv pond,21:00:00,21:03:00,Hyla versicolor,"3 - full chorus, calls are constant and overlapping",NA,night,acoustic,7
+brandon hoenig,2022-06-08T00:00:00Z,rv pond,21:00:00,21:03:00,Rana catesbeiana,"1 - individuals can be counted, space between calls",NA,night,acoustic,8
+brandon hoenig,2022-06-08T00:00:00Z,rv pond,21:00:00,21:03:00,Rana clamitans,"1 - individuals can be counted, space between calls",NA,night,acoustic,9
+brandon hoenig,2022-06-14T00:00:00Z,tuttle pond,21:07:00,21:10:00,Hyla versicolor,"3 - full chorus, calls are constant and overlapping",NA,night,acoustic,10
+brandon hoenig,2022-06-14T00:00:00Z,tuttle pond,21:07:00,21:10:00,Rana catesbeiana,"2 - individuals can be counted, overlapping calls",NA,night,acoustic,11
+brandon hoenig,2022-06-14T00:00:00Z,tuttle pond,21:07:00,21:10:00,Rana clamitans,"2 - individuals can be counted, overlapping calls",NA,night,acoustic,12
+brandon hoenig,2022-06-15T00:00:00Z,tuttle pond,21:29:00,21:32:00,Rana clamitans,"2 - individuals can be counted, overlapping calls",NA,night,acoustic,13
+brandon hoenig,2022-06-15T00:00:00Z,tuttle pond,21:29:00,21:32:00,Hyla versicolor,"1 - individuals can be counted, space between calls",NA,night,acoustic,14
+brandon hoenig,2022-06-15T00:00:00Z,tuttle pond,21:29:00,21:32:00,Rana catesbeiana,"1 - individuals can be counted, space between calls",NA,night,acoustic,15
+emily jolly,2022-06-23T00:00:00Z,tryon-weber,21:41:00,21:44:00,Rana clamitans,0 - species visible but no vocalization,NA,night,acoustic,16
+emily jolly,2022-06-23T00:00:00Z,tryon-weber,21:41:00,21:44:00,Rana sylvatica,0 - species visible but no vocalization,NA,night,acoustic,17
+brandon hoenig,2022-06-27T00:00:00Z,vorisek pond,22:07:00,22:10:00,Rana clamitans,0 - species visible but no vocalization,NA,night,acoustic,18
+brandon hoenig,2022-06-27T00:00:00Z,vorisek pond,22:07:00,22:10:00,Rana catesbeiana,"1 - individuals can be counted, space between calls",single call,night,acoustic,19
+brandon hoenig,2022-07-11T00:00:00Z,rv pond,21:34:00,21:37:00,Rana clamitans,"2 - individuals can be counted, overlapping calls",NA,night,acoustic,20
+brandon hoenig,2022-07-11T00:00:00Z,rv pond,21:34:00,21:37:00,Rana catesbeiana,"2 - individuals can be counted, overlapping calls",NA,night,acoustic,21
+brandon hoenig,2022-07-18T00:00:00Z,tuttle pond,21:26:00,21:29:00,Rana clamitans,"3 - full chorus, calls are constant and overlapping",NA,night,acoustic,22
+brandon hoenig,2022-07-18T00:00:00Z,tuttle pond,21:26:00,21:29:00,Hyla versicolor,"1 - individuals can be counted, space between calls",NA,night,acoustic,23
+brandon hoenig,2022-07-18T00:00:00Z,tuttle pond,21:26:00,21:29:00,Rana catesbeiana,0 - species visible but no vocalization,NA,night,acoustic,24
