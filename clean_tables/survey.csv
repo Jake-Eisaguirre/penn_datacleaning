@@ -1,0 +1,84 @@
+observer,date,site,start_time,end_time,survey_time,temp_surv_id
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,night,10
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,night,16
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,night,15
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,night,11
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,night,23
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,night,38
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,night,27
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,night,37
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,night,45
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,night,59
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,night,61
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,night,60
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,night,66
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,night,67
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,night,75
+NA,2022-05-04T00:00:00Z,wood lab pond,NA,NA,NA,1
+NA,2022-05-05T00:00:00Z,phelps pond,NA,NA,NA,2
+NA,2022-05-11T00:00:00Z,admin pond,NA,NA,NA,3
+NA,2022-05-12T00:00:00Z,rv pond,NA,NA,NA,4
+NA,2022-05-18T00:00:00Z,admin pond,NA,NA,NA,5
+Emily Jolly,2022-05-19T00:00:00Z,admin pond,19:31:00,22:59:00,night,6
+Brandon Hoenig,2022-05-19T00:00:00Z,admin pond,20:59:00,22:59:00,night,7
+Emily Jolly,2022-05-20T00:00:00Z,admin pond,13:28:00,14:37:00,day,8
+Brandon Hoenig,2022-05-20T00:00:00Z,admin pond,13:29:00,14:37:00,day,9
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,21:20:00,NA,night,13
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,21:17:00,22:57:00,night,12
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,21:46:00,21:53:00,night,14
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:57:00,22:08:00,night,17
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:57:00,22:09:00,night,18
+Shane Robertson,2022-05-27T00:00:00Z,wood lab pond,21:06:00,22:11:00,night,19
+Brandon Hoenig,2022-05-28T00:00:00Z,wood lab pond,10:43:00,11:43:00,day,20
+Emily Jolly,2022-05-28T00:00:00Z,wood lab pond,10:47:00,11:43:00,day,21
+Shane Robertson,2022-05-28T00:00:00Z,wood lab pond,10:51:00,11:44:00,day,22
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,21:25:00,23:02:00,night,24
+Shane Robertson,2022-06-03T00:00:00Z,phelps pond,21:35:00,23:10:00,night,26
+Emily Jolly,2022-06-03T00:00:00Z,phelps pond,21:25:00,23:03:00,night,25
+Shane Robertson,2022-06-04T00:00:00Z,phelps pond,21:10:00,22:58:00,night,29
+Emily Jolly,2022-06-04T00:00:00Z,phelps pond,21:09:00,22:57:00,night,28
+NA,2022-06-04T00:00:00Z,phelps pond,NA,NA,NA,30
+Emily Jolly,2022-06-07T00:00:00Z,rv pond,21:22:00,23:22:00,night,32
+Brandon Hoenig,2022-06-07T00:00:00Z,rv pond,21:25:00,23:07:00,night,33
+Myah Madril,2022-06-07T00:00:00Z,rv pond,21:22:00,02:12:00,night,31
+NA,2022-06-07T00:00:00Z,rv pond,NA,NA,NA,34
+Myah Madril,2022-06-08T00:00:00Z,rv pond,21:11:00,22:03:00,night,36
+Emily Jolly,2022-06-08T00:00:00Z,rv pond,21:11:00,22:02:00,night,35
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:44:00,22:47:00,night,41
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,23:01:00,23:28:00,night,43
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:35:00,22:47:00,night,39
+Myah Madril,2022-06-14T00:00:00Z,tuttle pond,21:44:00,22:46:00,night,40
+NA,2022-06-14T00:00:00Z,tuttle pond,NA,NA,NA,44
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,22:59:00,23:29:00,night,42
+Emily Jolly,2022-06-15T00:00:00Z,tuttle pond,21:58:00,23:31:00,night,46
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,22:02:00,23:32:00,night,48
+Myah Madril,2022-06-15T00:00:00Z,tuttle pond,21:58:00,23:32:00,night,47
+NA,2022-06-16T00:00:00Z,tuttle pond,NA,NA,NA,49
+NA,2022-06-22T00:00:00Z,tryon-weber,10:55:00,12:12:00,day,52
+Emily Jolly,2022-06-22T00:00:00Z,tryon-weber,10:49:00,12:13:00,day,50
+Sydney Dawson,2022-06-22T00:00:00Z,tryon-weber,10:58:00,12:12:00,day,53
+Myah Madril,2022-06-22T00:00:00Z,tryon-weber,10:50:00,12:12:00,day,51
+Sydney Dawson,2022-06-23T00:00:00Z,tryon-weber,10:40:00,12:33:00,day,54
+NA,2022-06-23T00:00:00Z,tryon-weber,NA,NA,NA,58
+Emily Jolly,2022-06-23T00:00:00Z,tryon-weber,11:01:00,12:33:00,day,55
+Emily Jolly,2022-06-23T00:00:00Z,tryon-weber,21:48:00,22:27:00,night,57
+Brandon Hoenig,2022-06-23T00:00:00Z,tryon-weber,21:47:00,22:27:00,night,56
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:34:00,23:58:00,night,62
+NA,2022-06-27T00:00:00Z,vorisek pond,NA,NA,NA,63
+Brandon Hoenig,2022-06-28T00:00:00Z,vorisek pond,21:39:00,23:09:00,night,64
+Sydney Dawson,2022-06-28T00:00:00Z,vorisek pond,21:41:00,NA,night,65
+Myah Madril,2022-07-11T00:00:00Z,rv pond,22:12:00,00:04:00,night,69
+NA,2022-07-11T00:00:00Z,rv pond,22:04:00,00:04:00,night,68
+NA,2022-07-11T00:00:00Z,rv pond,NA,NA,NA,70
+Myah Madril,2022-07-12T00:00:00Z,rv pond,22:03:00,00:00:00,night,72
+Brandon Hoenig,2022-07-12T00:00:00Z,rv pond,22:00:00,00:00:00,night,71
+Sydney Dawson,2022-07-12T00:00:00Z,rv pond,22:06:00,23:59:00,night,73
+NA,2022-07-12T00:00:00Z,rv pond,22:06:00,NA,night,74
+NA,2022-07-18T00:00:00Z,tuttle pond,NA,NA,NA,79
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:58:00,23:41:00,night,76
+Sydney Dawson,2022-07-18T00:00:00Z,tuttle pond,21:58:00,NA,night,78
+NA,2022-07-18T00:00:00Z,tuttle pond,21:58:00,23:42:00,night,77
+NA,2022-07-19T00:00:00Z,tuttle pond,21:35:00,22:07:00,night,81
+Sydney Dawson,2022-07-19T00:00:00Z,tuttle pond,21:36:00,22:04:00,night,82
+NA,2022-07-19T00:00:00Z,tuttle pond,NA,NA,NA,83
+Myah Madril,2022-07-19T00:00:00Z,tuttle pond,21:31:00,22:36:00,night,80

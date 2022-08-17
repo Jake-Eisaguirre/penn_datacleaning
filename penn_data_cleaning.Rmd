@@ -37,7 +37,8 @@ cap_data <- capture_data %>%
          end_hour = hour(end_time),
          survey_time = case_when(start_hour >= 6 & end_hour >= 6 & end_hour < 19 ~ "day", 
                           start_hour >= 19 &  (end_hour < 6 | end_hour <= 23) |
-                         (start_hour < 6 & end_hour < 6)~ "night")) %>% 
+                         (start_hour < 6 & end_hour < 6)~ "night",
+                         start_hour >=19 ~"night")) %>% 
   select(!c(start_hour, end_hour))
 
 ```
@@ -66,7 +67,7 @@ cap <- cap_date %>%
 cap_region_table <- cap %>% 
   select(observer, date, location) 
 
-%>% 
+#%>% 
   # group_by(location) %>% 
   # mutate(temp_reg_id = cur_group_id()) %>% 
   # filter(!duplicated(temp_reg_id)) %>% 
@@ -80,7 +81,7 @@ cap_region_table <- cap %>%
 cap_visit_table <- cap %>% 
   select(c(date, survey_time, location)) 
 
-%>% 
+#%>% 
   # group_by(date, survey_time) %>% 
   # mutate(temp_v_id = cur_group_id()) %>% 
   # filter(!duplicated(temp_v_id))
@@ -112,7 +113,11 @@ cap_survey_table <- cap %>%
 ```{r}
 
 capture_table <- cap %>% 
-  mutate(temp_cap_id = 1:n())
+  mutate(temp_cap_id = 1:n()) %>% 
+  rename(site = location) %>% 
+  mutate(site = str_to_lower(site))
+
+write_csv(capture_table, here("clean_tables", "capture.csv"))
 
 ```
 
@@ -124,7 +129,8 @@ ves <- ves_data %>%
          end_hour = hour(end_time),
          survey_time = case_when(start_hour >= 6 & end_hour >= 6 & end_hour < 19 ~ "day", 
                           start_hour >= 19 &  (end_hour < 6 | end_hour <= 23) |
-                         (start_hour < 6 & end_hour < 6)~ "night")) %>% 
+                         (start_hour < 6 & end_hour < 6)~ "night",
+                         start_hour >=19 ~"night")) %>% 
   select(!c(start_hour, end_hour)) %>% 
     mutate(date = parse_iso_8601(date))
 
@@ -132,16 +138,20 @@ ves <- ves_data %>%
 
 ```
 
-### rbind cap region with ves region and filter by unique occurances
+### rbind cap site with ves site and filter by unique occurances
 ```{r}
 
-region_table <- ves %>% 
+site_table <- ves %>% 
   select(observer, date, location) %>% 
   rbind(cap_region_table) %>% 
   group_by(location) %>%  
   mutate(temp_reg_id = cur_group_id()) %>% 
   filter(!duplicated(temp_reg_id)) %>% 
-  select(!c(date, observer))
+  select(!c(date, observer)) %>% 
+  rename(site = location) %>% 
+  mutate(site = str_to_lower(site))
+
+write_csv(site_table, here("clean_tables", "site.csv"))
 
 ```
 
@@ -152,12 +162,16 @@ visit_table <- ves %>%
   rbind(cap_visit_table) %>% 
   group_by(date, survey_time, location) %>% 
   mutate(temp_v_id = cur_group_id()) %>% 
-  filter(!duplicated(temp_v_id))
+  filter(!duplicated(temp_v_id)) %>% 
+  rename(site = location) %>% 
+  mutate(site = str_to_lower(site))
+
+write_csv(visit_table, here("clean_tables", "visit.csv"))
 
 
 ```
 
-### rbind cap survey table with ves and filter by unique occurances
+### rbind cap survey table with ves and filter by unique occurances - still need to figure out duration column 
 ```{r}
 
 survey_table <- ves %>% 
@@ -165,8 +179,11 @@ survey_table <- ves %>%
   rbind(cap_survey_table) %>% 
   group_by(date, location, start_time, end_time, survey_time) %>% 
   mutate(temp_surv_id = cur_group_id()) %>% 
-  filter(!duplicated(temp_surv_id))
-  
+  filter(!duplicated(temp_surv_id)) %>% 
+  rename(site = location) %>% 
+  mutate(site = str_to_lower(site))
+
+write_csv(survey_table, here("clean_tables", "survey.csv"))  
 
 ```
 
@@ -174,7 +191,11 @@ survey_table <- ves %>%
 ```{r}
 
 ves_table <- ves %>% 
-  mutate(temp_ves_id = 1:n())
+  mutate(temp_ves_id = 1:n()) %>% 
+  rename(site = location) %>% 
+  mutate(site = str_to_lower(site))
+
+write_csv(ves_table, here("clean_tables", "visual.csv"))
 
 ```
 

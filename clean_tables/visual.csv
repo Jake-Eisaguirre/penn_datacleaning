@@ -1,0 +1,377 @@
+observer,date,site,start_time,end_time,species_ves,count_ves,comments_ves,survey_time,temp_ves_id
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,1
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,2
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,3
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,2,NA,night,4
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,5
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,6
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,7
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,8
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,9
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,10
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,11
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,12
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,13
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,2,NA,night,14
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,15
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,16
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,17
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,18
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,19
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,20
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,21
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,22
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,23
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,24
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,25
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,26
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,27
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,28
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,29
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,30
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,31
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,32
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,33
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,34
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,35
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,36
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,37
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,38
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,39
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,40
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,41
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,42
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,43
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,44
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,45
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,46
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,47
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana clamitans,1,NA,night,48
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,49
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,50
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,51
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,52
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana clamitans,1,NA,night,53
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,54
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana clamitans,1,NA,night,55
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,56
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,57
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,58
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana clamitans,1,NA,night,59
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,60
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,61
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,62
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,63
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,64
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,65
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,66
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,67
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,68
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,69
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,70
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,71
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,72
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,5,NA,night,73
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,74
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,75
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,76
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,77
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,78
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,79
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,5,NA,night,80
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,81
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,82
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,83
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,84
+Emily Jolly,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,85
+Emily Jolly,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,86
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,87
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana catesbeiana,1,NA,night,88
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,89
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,90
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana catesbeiana,1,NA,night,91
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana pipiens,1,NA,night,92
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana catesbeiana,1,NA,night,93
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,94
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,95
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,96
+Emily Jolly,2022-06-14T00:00:00Z,tuttle pond,21:18:00,21:38:00,Rana clamitans,1,NA,night,97
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana catesbeiana,1,NA,night,98
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana clamitans,1,NA,night,99
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana catesbeiana,1,NA,night,100
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana clamitans,1,NA,night,101
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana catesbeiana,1,NA,night,102
+Brandon Hoenig,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana clamitans,1,NA,night,103
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana catesbeiana,1,NA,night,104
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana clamitans,1,NA,night,105
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana catesbeiana,1,NA,night,106
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana pipiens,1,NA,night,107
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana pipiens,1,NA,night,108
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana clamitans,1,NA,night,109
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana catesbeiana,4,NA,night,110
+Brandon Hoenig,2022-06-14T00:00:00Z,tuttle pond,21:15:00,21:35:00,Rana clamitans,3,NA,night,111
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,112
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,113
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,114
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,115
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,116
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,117
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,118
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,119
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,120
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,121
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,122
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,2,NA,night,123
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,124
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,125
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,126
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,127
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,128
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,129
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,1,NA,night,130
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana catesbeiana,1,NA,night,131
+Brandon Hoenig,2022-06-15T00:00:00Z,tuttle pond,21:33:00,21:56:00,Rana clamitans,3,NA,night,132
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,1,NA,night,133
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana clamitans,2,NA,night,134
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,1,NA,night,135
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,1,NA,night,136
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana clamitans,1,NA,night,137
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,1,NA,night,138
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana clamitans,1,NA,night,139
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,1,NA,night,140
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana clamitans,1,NA,night,141
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,2,NA,night,142
+Myah Madril,2022-06-27T00:00:00Z,vorisek pond,22:14:00,22:34:00,Rana catesbeiana,1,NA,night,143
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,2,NA,night,144
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,145
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,1,NA,night,146
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,1,NA,night,147
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,148
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,1,NA,night,149
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,150
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,151
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,2,NA,night,152
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,2,NA,night,153
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,154
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,155
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana clamitans,1,NA,night,156
+Brandon Hoenig,2022-06-27T00:00:00Z,vorisek pond,22:16:00,22:34:00,Rana catesbeiana,1,NA,night,157
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,1,Unsure of the accuracy of this survey,night,158
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,2,NA,night,159
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,2,NA,night,160
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,1,NA,night,161
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,1,NA,night,162
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,2,NA,night,163
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana clamitans,1,NA,night,164
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana catesbeiana,1,NA,night,165
+Sydney Dawson,2022-06-27T00:00:00Z,vorisek pond,22:14:00,NA,Rana catesbeiana,1,NA,night,166
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,1,NA,night,167
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,1,NA,night,168
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,1,NA,night,169
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,4,NA,night,170
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,1,NA,night,171
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,2,NA,night,172
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,1,NA,night,173
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,2,NA,night,174
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,1,NA,night,175
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,2,NA,night,176
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,1,NA,night,177
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,3,NA,night,178
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,2,NA,night,179
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,1,NA,night,180
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,1,NA,night,181
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,3,NA,night,182
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,2,NA,night,183
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,4,NA,night,184
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,5,NA,night,185
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,1,NA,night,186
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana clamitans,2,NA,night,187
+Sydney Dawson,2022-07-11T00:00:00Z,rv pond,21:39:00,22:03:00,Rana catesbeiana,1,NA,night,188
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,189
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,190
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,191
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,192
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,2,NA,night,193
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,5,NA,night,194
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,195
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,196
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,197
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,4,NA,night,198
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,199
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,200
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,201
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,2,NA,night,202
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,203
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,204
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,205
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,206
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,207
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,2,NA,night,208
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,2,NA,night,209
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,210
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,211
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,212
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,213
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,214
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,215
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,216
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,217
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,218
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,219
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,220
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,221
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,222
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,223
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,224
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,225
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,226
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,2,NA,night,227
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,228
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,229
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,230
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,231
+Myah Madril,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,232
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,3,Easily over 200 frogs in total.,night,233
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,7,NA,night,234
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,235
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,236
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,237
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,238
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,3,NA,night,239
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,9,NA,night,240
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,20,NA,night,241
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,10,NA,night,242
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,6,NA,night,243
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,5,NA,night,244
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,10,NA,night,245
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,246
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,3,NA,night,247
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,248
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,2,NA,night,249
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,4,NA,night,250
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,1,NA,night,251
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,1,NA,night,252
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,3,NA,night,253
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,5,NA,night,254
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,3,NA,night,255
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,5,NA,night,256
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,5,NA,night,257
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,6,NA,night,258
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,5,NA,night,259
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,8,NA,night,260
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana catesbeiana,3,NA,night,261
+Brandon Hoenig,2022-07-11T00:00:00Z,rv pond,21:40:00,22:02:00,Rana clamitans,3,NA,night,262
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,1,NA,night,263
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,1,NA,night,264
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,3,NA,night,265
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,1,NA,night,266
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,1,NA,night,267
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,1,NA,night,268
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,6,NA,night,269
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,1,NA,night,270
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,3,NA,night,271
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,2,NA,night,272
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,3,NA,night,273
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,3,NA,night,274
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,1,NA,night,275
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,4,NA,night,276
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,2,NA,night,277
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,4,NA,night,278
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,3,NA,night,279
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana clamitans,1,NA,night,280
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,2,NA,night,281
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,5,NA,night,282
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,2,NA,night,283
+Myah Madril,2022-07-18T00:00:00Z,tuttle pond,21:30:00,21:52:00,Rana catesbeiana,7,NA,night,284
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,285
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,286
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,287
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,2,NA,night,288
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,289
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,290
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,291
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,292
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,293
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,294
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,295
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,296
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,297
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,2,NA,night,298
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,299
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,300
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,301
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,302
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,303
+Brandon Hoenig,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,304
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,305
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,306
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,307
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,308
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,309
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,310
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,311
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,312
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,313
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,314
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,315
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,316
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,317
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,318
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,319
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,320
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,321
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,322
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,323
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,324
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,325
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,326
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana clamitans,1,NA,night,327
+Emily Jolly,2022-05-26T00:00:00Z,wood lab pond,20:57:00,21:17:00,Rana catesbeiana,1,NA,night,328
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,329
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,330
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,331
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana clamitans,1,NA,night,332
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,333
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,334
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,335
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,336
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana clamitans,1,NA,night,337
+Emily Jolly,2022-05-27T00:00:00Z,wood lab pond,20:43:00,NA,Rana catesbeiana,1,NA,night,338
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana clamitans,1,NA,night,339
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,340
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,341
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,342
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana clamitans,1,NA,night,343
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,344
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,345
+Brandon Hoenig,2022-05-27T00:00:00Z,wood lab pond,20:43:00,20:56:00,Rana catesbeiana,1,NA,night,346
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,347
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,348
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,349
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,350
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,351
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,352
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,353
+Shane Robertson,2022-05-26T00:00:00Z,wood lab pond,20:58:00,21:17:00,Rana clamitans,1,NA,night,354
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,355
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,356
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,5,NA,night,357
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,358
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,359
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,360
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,361
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,362
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,363
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,5,NA,night,364
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,365
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana clamitans,1,NA,night,366
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,367
+Brandon Hoenig,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,368
+Emily Jolly,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,369
+Emily Jolly,2022-06-03T00:00:00Z,phelps pond,20:59:00,21:25:00,Rana catesbeiana,1,NA,night,370
+NA,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana catesbeiana,1,NA,night,371
+NA,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana clamitans,1,NA,night,372
+NA,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana catesbeiana,1,NA,night,373
+NA,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana clamitans,1,NA,night,374
+NA,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana catesbeiana,1,NA,night,375
+NA,2022-06-03T00:00:00Z,NA,20:57:00,21:26:00,Rana clamitans,1,NA,night,376
