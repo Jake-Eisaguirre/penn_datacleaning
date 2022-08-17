@@ -16,7 +16,7 @@ if (!require(librarian)){
 
 # librarian downloads, if not already downloaded, and reads in needed packages
 
-librarian::shelf(tidyverse, here, janitor, lubridate, parsedate, stringr)
+librarian::shelf(tidyverse, here, janitor, lubridate, parsedate, stringr,hms)
 ```
 
 ### Load munged data: still need to include swab, amp, etc IDs
@@ -26,6 +26,9 @@ capture_data <- read_csv(here("data", "merged_AmphibianCaptureSurvey.csv")) %>%
   clean_names()
 
 ves_data <- read_csv(here("data", "merged_VisualEncounterSurvey.csv")) %>% 
+  clean_names()
+
+acous_data <- read_csv(here("data", "merged_AcousticSurvey.csv")) %>% 
   clean_names()
 
 ```
@@ -55,9 +58,11 @@ cap_date <- cap_data %>%
 cap <- cap_date %>% 
   mutate(life_stage = str_to_lower(life_stage),
          sex = str_to_lower(sex),
-         microhabitat_type = str_to_lower(microhabitat_type)) %>% 
+         microhabitat_type = str_to_lower(microhabitat_type),
+         observer = str_to_lower(observer)) %>% 
   rename(microhabitat_temperature_c = microhabitat_temperature) %>% 
-  rename(body_temperature_c = body_temperature)
+  rename(body_temperature_c = body_temperature) %>% 
+  mutate(detection_type = "capture")
 
 ```
 
@@ -92,7 +97,17 @@ cap_visit_table <- cap %>%
 ```{r}
 
 cap_survey_table <- cap %>% 
-  select(1:5, survey_time) 
+  select(1:5, survey_time, detection_type) %>% 
+  mutate(
+         duration_min = if_else(end_time < start_time,
+                            as_hms(86400) - start_time + end_time,
+                            end_time - start_time),
+         duration_min = duration_min/60)
+
+cap_survey_table$duration_min <- str_sub(cap_survey_table$duration_min, -4) %>% 
+  as.numeric()
+  
+  
 
 # %>%
 #   group_by(date, location, start_time, end_time, survey_time) %>%
@@ -121,6 +136,67 @@ write_csv(capture_table, here("clean_tables", "capture.csv"))
 
 ```
 
+### clean acou table
+```{r}
+
+acoustic <- acous_data %>% 
+    mutate(start_hour = hour(start_time),
+         end_hour = hour(end_time),
+         survey_time = case_when(start_hour >= 6 & end_hour >= 6 & end_hour < 19 ~ "day", 
+                          start_hour >= 19 &  (end_hour < 6 | end_hour <= 23) |
+                         (start_hour < 6 & end_hour < 6)~ "night",
+                         start_hour >=19 ~"night"),
+         date = parse_iso_8601(date)) %>% 
+    select(!c(start_hour, end_hour)) %>% 
+  mutate(observer = str_to_lower(observer),
+         call_index = str_to_lower(call_index),
+         acoustic_comments = str_to_lower(acoustic_comments),
+         detection_type = "acoustic")
+
+  
+
+```
+
+### pull out acoustic sites table
+```{r}
+acous_region_table <- acoustic %>% 
+  select(observer, date, location) 
+
+
+```
+
+### pull out acous visits
+```{r}
+acous_visit_table <- acoustic %>% 
+   select(c(date, survey_time, location)) 
+```
+
+### pull out acous survey
+```{r}
+acous_survey_table <- acoustic %>% 
+    select(1:5, survey_time, detection_type) %>% 
+    mutate(
+         duration_min = if_else(end_time < start_time,
+                            as_hms(86400) - start_time + end_time,
+                            end_time - start_time),
+         duration_min = duration_min/60)
+
+acous_survey_table$duration_min <- str_sub(acous_survey_table$duration_min, -4) %>% 
+  as.numeric()
+```
+
+
+### pull out acoustic table
+```{r}
+acoustic_table <- acoustic %>% 
+  mutate(temp_acous_id = 1:n()) %>% 
+  rename(site = location) %>% 
+  mutate(site = str_to_lower(site))
+
+write_csv(acoustic_table, here("clean_tables", "acoustic.csv"))
+```
+
+
 ### clean ves table
 ```{r}
 
@@ -132,7 +208,8 @@ ves <- ves_data %>%
                          (start_hour < 6 & end_hour < 6)~ "night",
                          start_hour >=19 ~"night")) %>% 
   select(!c(start_hour, end_hour)) %>% 
-    mutate(date = parse_iso_8601(date))
+    mutate(date = parse_iso_8601(date),
+           detection_type = "visual")
 
 
 
@@ -143,7 +220,7 @@ ves <- ves_data %>%
 
 site_table <- ves %>% 
   select(observer, date, location) %>% 
-  rbind(cap_region_table) %>% 
+  rbind(cap_region_table, acous_region_table) %>%
   group_by(location) %>%  
   mutate(temp_reg_id = cur_group_id()) %>% 
   filter(!duplicated(temp_reg_id)) %>% 
@@ -159,7 +236,7 @@ write_csv(site_table, here("clean_tables", "site.csv"))
 ```{r}
 visit_table <- ves %>% 
   select(c(date, survey_time, location)) %>% 
-  rbind(cap_visit_table) %>% 
+  rbind(cap_visit_table, acous_visit_table) %>% 
   group_by(date, survey_time, location) %>% 
   mutate(temp_v_id = cur_group_id()) %>% 
   filter(!duplicated(temp_v_id)) %>% 
@@ -174,10 +251,21 @@ write_csv(visit_table, here("clean_tables", "visit.csv"))
 ### rbind cap survey table with ves and filter by unique occurances - still need to figure out duration column 
 ```{r}
 
+ves <- ves %>% 
+    select(1:5, survey_time, detection_type) %>% 
+    mutate(
+         duration_min = if_else(end_time < start_time,
+                            as_hms(86400) - start_time + end_time,
+                            end_time - start_time),
+         duration_min = duration_min/60)
+
+ves$duration_min <- str_sub(ves$duration_min, -4) %>% 
+  as.numeric()
+
 survey_table <- ves %>% 
-  select(1:5, survey_time) %>% 
-  rbind(cap_survey_table) %>% 
-  group_by(date, location, start_time, end_time, survey_time) %>% 
+  select(1:5, survey_time, detection_type) %>% 
+  plyr::rbind.fill(cap_survey_table, acous_survey_table) %>% 
+  group_by(date, location, detection_type, survey_time) %>% 
   mutate(temp_surv_id = cur_group_id()) %>% 
   filter(!duplicated(temp_surv_id)) %>% 
   rename(site = location) %>% 
